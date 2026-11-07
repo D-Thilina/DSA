@@ -29,7 +29,7 @@ public class LeetCode_01
 				map.put(nums[i], i);
 			}
 		}
-		return new int[0];
+		return new int[] {};
 		
 	}
 
