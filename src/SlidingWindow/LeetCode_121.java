@@ -23,7 +23,7 @@ public class LeetCode_121 {
 			
 			profit = Math.max(profit, prices[i] - min);
 		}
-		// TODO Auto-generated constructor stub
+		
 		return profit;
 	}
 
