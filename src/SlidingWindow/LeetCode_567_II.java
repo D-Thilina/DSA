@@ -7,7 +7,7 @@ import java.util.Map;
 public class LeetCode_567_II {
 
 	public static void main(String[] args) {
-		boolean r = permutation("abb", "acdbba");
+		boolean r = permutation("ab", "eidbaooo");
 		System.out.println(r);
 	}
 	
@@ -49,10 +49,13 @@ public class LeetCode_567_II {
 			}
 			
 			System.out.println(map);
+			if(matches(map)) {
+				return true;
+			}
 
 		}
 		
-		return matches(map);
+		return false;
 	}
 	
 	
